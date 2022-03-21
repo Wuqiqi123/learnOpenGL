@@ -1,3 +1,9 @@
 [submodule "extern/glfw"]
 	path = extern/glfw
 	url = https://github.com/Wuqiqi123/glfw
+[submodule "extern/stb"]
+	path = extern/stb
+	url = https://github.com/Wuqiqi123/stb
+[submodule "extern/glm"]
+	path = extern/glm
+	url = git@github.com:Wuqiqi123/glm.git
