@@ -26,4 +26,4 @@ target_link_libraries(main
         glm
         stb)
 
-target_include_directories(main PUBLIC include ${Boost_INCLUDE_DIR})
+target_include_directories(main PUBLIC include stb)
