@@ -7,3 +7,6 @@
 [submodule "extern/glm"]
 	path = extern/glm
 	url = git@github.com:Wuqiqi123/glm.git
+[submodule "extern/assimp"]
+	path = extern/assimp
+	url = git@github.com:Wuqiqi123/assimp.git
