@@ -13,6 +13,7 @@ add_subdirectory(extern)
 
 find_package(OpenGL REQUIRED)
 find_package(Boost REQUIRED)
+find_package(Assimp REQUIRED)
 
 
 file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS src/*.cpp)
@@ -24,6 +25,7 @@ target_link_libraries(main
         glfw
         glad
         glm
-        stb)
+        stb
+        assimp)
 
 target_include_directories(main PUBLIC include stb)
