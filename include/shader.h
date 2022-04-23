@@ -21,7 +21,7 @@ public:
     unsigned int ID;
 
     // 构造器读取并构建着色器
-    Shader(const char* vertexPath, const char* fragmentPath);
+    Shader(const char* vertexPath, const char* fragmentPath, const char* geometryPath = nullptr);
     inline void use()
     {
         glUseProgram(ID);
